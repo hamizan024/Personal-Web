@@ -14,6 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-style: outset;
 }
 
 nav ul {
@@ -21,6 +22,7 @@ nav ul {
   justify-content: space-between;
   list-style: none;
   gap: 50px;
+  border-style: outset;
 }
 
 nav ul li a {
@@ -54,8 +56,10 @@ main {
 
 #hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 50px;
+  border-style: outset;
 }
 
 #hero-greeting h1 {
@@ -67,7 +71,7 @@ main {
 }
 
 #hero-button button {
-  padding: 1px 20px;
+  padding: 10px 20px;
   border-radius: 20px;
 }
 
