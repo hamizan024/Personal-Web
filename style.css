@@ -35,6 +35,11 @@ nav ul li a {
 main {
   margin: 30px 0;
 }
+
+nav:hover {
+  color: red;
+}
+
 #about-container {
   height: 200px;
   background-color: #ccf2f4;
@@ -43,13 +48,13 @@ main {
 }
 
 #footer {
-  height: 50px;
-  position: fixed;
+  height: 25px;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #ccf2f4;
   text-align: center;
+  border-radius: 15px;
 }
 
 #hero {
@@ -78,10 +83,16 @@ main {
 
 #hero-button button:hover {
   background-color: #a4ebf3;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-button a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 #skills-container {
-  height: 100vh;
+  height: auto;
   background-color: #ccf2f4;
   border-radius: 15px;
   padding: 10px;
@@ -187,47 +198,42 @@ main {
 }
 
 #contact-container {
-  height: 100vh;
+  height: auto;
   background-color: #ccf2f4;
   border-radius: 15px;
   padding: 10px;
 }
 
 .social-container {
-	margin:0 auto;
+  margin: 0 auto;
   padding: 40px 0;
-	width:200px;
-  height:100%;
+  width: 200px;
+  height: 100%;
 }
 
 /* Add this ID to a section or something you want to change the background-color */
 #social-section {
-  padding:60px 0;
-  -webkit-transition: all .2s ease-out;
--moz-transition: all .2s ease-out;
--ms-transition: all .2s ease-out;
--o-transition: all .2s ease-out;
-transition: all .2s ease-out;
+  padding: 60px 0;
 }
 
 /* Button Styles */
 .social-container a {
-display: block;
-width:200px;
-line-height: 40px;
-border: 1px solid rgba(0,0,0,.1);
-color: rgba(0,0,0,.6);
-margin:20px 0;
-text-decoration: none;
-text-align:center;
-border-radius: 15px;
+  display: block;
+  width: 200px;
+  line-height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.6);
+  margin: 20px 0;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
 }
 
 .social-container a i {
-margin-right: 0px;   
+  margin-right: 0px;
 }
 
-.social-container a:hover  {
-border: 1px solid rgba(255,255,255,.3);
-color: rgba(255,255,255,.6);
+.social-container a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
 }
